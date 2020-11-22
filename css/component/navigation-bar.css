@@ -1,0 +1,36 @@
+.a {
+  color: inherit;
+}
+
+.navigation-bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+  box-sizing: border-box;
+  background-color: #fbfafb;
+  position: fixed;
+}
+
+.navigation-bar-span {
+  padding: 4px 8px;
+  background-color: tomato;
+  color: white;
+  font-size: 13px;
+  border-radius: 50%;
+  position: fixed;
+  left: 39%;
+  bottom: 5%;
+}
+
+.navigation-bar-span-second {
+  padding: 3px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: fixed;
+  right: 8%;
+  bottom: 6%;
+}

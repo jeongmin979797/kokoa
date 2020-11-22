@@ -1,0 +1,88 @@
+@import "component/status-bar.css";
+@import "component/top-menu.css";
+@import "component/profile.css";
+@import "component/bar.css";
+@import "component/navigation-bar.css";
+@import "component/reset.css";
+
+@import "component/variable.css";
+
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-tomato-round {
+  padding: 3px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  right: 2.5%;
+  top: 7%;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.icon-row div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row div i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.profile div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile div:nth-child(2) span:last-child {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.profile div:nth-child(2) span:last-child i {
+  color: tomato;
+}
+
+.profile_bg {
+  position: relative;
+}
+
+.fa-comment-alt {
+  position: absolute;
+  right: 10px;
+  font-size: 30px;
+}
+
+.suggestion_div_div {
+  display: flex;
+}
+
+.suggestion_div_div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestion_div_div div i {
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px 30px 5px 40px;
+  font-size: 40px;
+}
+
+.suggestion_div_div div span {
+  padding-left: 10px;
+}

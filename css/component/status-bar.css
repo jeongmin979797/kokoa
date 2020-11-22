@@ -1,0 +1,9 @@
+main {
+  padding: 10px 10px;
+  height: 100vh;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+}

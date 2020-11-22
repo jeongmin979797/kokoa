@@ -1,0 +1,32 @@
+@import "component/status-bar.css";
+@import "component/top-menu.css";
+@import "component/profile.css";
+@import "component/bar.css";
+@import "component/navigation-bar.css";
+@import "component/reset.css";
+
+@import "component/variable.css";
+
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.notice {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray);
+}
+
+.notice i {
+  opacity: 0.5;
+  padding: 0 10px;
+}
+
+.channel_span {
+  opacity: 0.5;
+}

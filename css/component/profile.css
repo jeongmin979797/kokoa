@@ -1,0 +1,41 @@
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.profile span {
+  font-size: 23px;
+}
+
+.profile_bg img {
+  width: 70px;
+  height: 70px;
+}
+
+.profile_bg span {
+  font-weight: 600;
+}
+
+.profile div:last-child {
+  position: absolute;
+  right: 0px;
+  font-size: 15px;
+}
+
+.profile div:last-child span {
+  font-size: 19px;
+}
+
+.last-text {
+  opacity: 0.3;
+}

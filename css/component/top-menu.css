@@ -1,0 +1,17 @@
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px 5px;
+}
+
+.top-menu i {
+  font-size: 25px;
+  margin: 0 0 0 20px;
+}
+
+.top-menu div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}

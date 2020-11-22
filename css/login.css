@@ -1,0 +1,42 @@
+@import "component/status-bar.css";
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.welcome-text span:nth-child(1) {
+  font-size: 25px;
+}
+
+.welcome-text span:nth-child(2) {
+  display: block;
+  padding-top: 15px;
+  font-size: 15px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.welcome-form {
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-form input {
+  width: 90%;
+  height: 60px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.welcome-form span {
+  margin-top: 20px;
+}
