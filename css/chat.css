@@ -43,3 +43,12 @@ body {
   font-size: 15px;
   padding-bottom: 5px;
 }
+
+.profile {
+  padding: 20px 5px;
+  border-radius: 10px;
+}
+
+.profile:hover {
+  background-color: skyblue;
+}

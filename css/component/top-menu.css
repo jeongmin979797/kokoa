@@ -15,3 +15,15 @@
   display: flex;
   align-items: center;
 }
+
+@keyframes cog_animation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.fa-cog:hover {
+  animation: cog_animation 3s linear infinite;
+}

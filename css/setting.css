@@ -1,0 +1,56 @@
+@import "component/status-bar.css";
+@import "component/top-menu.css";
+@import "component/profile.css";
+@import "component/bar.css";
+@import "component/navigation-bar.css";
+@import "component/reset.css";
+@import "component/top-menu-second.css";
+
+@import "component/variable.css";
+
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.setting_column {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  padding: 20px 0;
+  font-size: 23px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.setting_column_second span span {
+  background-color: tomato;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  padding: 2px 5px 0 5px;
+  border-radius: 50%;
+}
+
+.setting_column_third {
+  border-bottom: 4px solid white;
+}
+
+.setting_column_third > span {
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+.bar {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.top-menu-setting {
+  top: 20px;
+}
+
+.setting_columns {
+  margin-top: 70px;
+}

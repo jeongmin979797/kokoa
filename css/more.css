@@ -18,8 +18,8 @@ body {
   background-color: tomato;
   border-radius: 50%;
   position: absolute;
-  right: 2.5%;
-  top: 7%;
+  right: 7px;
+  top: 40px;
 }
 
 .icon-row {
@@ -67,6 +67,8 @@ body {
 
 .suggestion_div_div {
   display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
 .suggestion_div_div div {
@@ -79,10 +81,9 @@ body {
   background-color: skyblue;
   padding: 10px;
   border-radius: 10px;
-  margin: 30px 30px 5px 40px;
   font-size: 40px;
 }
 
-.suggestion_div_div div span {
-  padding-left: 10px;
+.chat_screen_a {
+  text-decoration: none;
 }
