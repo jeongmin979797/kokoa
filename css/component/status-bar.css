@@ -11,3 +11,14 @@ main {
   padding: 0 20px 20px 0;
   box-sizing: border-box;
 }
+
+.status-bar-login {
+  padding-right: 35px;
+}
+
+.status-bar-chat-screen {
+  background-color: #f6d6d5;
+  margin-top: -10px;
+  padding-top: 10px;
+  z-index: 50;
+}

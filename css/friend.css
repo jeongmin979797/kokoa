@@ -5,6 +5,7 @@
 @import "component/navigation-bar.css";
 @import "component/reset.css";
 @import "component/animation_page.css";
+@import "component/screen-size.css";
 @import "component/variable.css";
 
 body {

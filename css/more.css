@@ -4,7 +4,7 @@
 @import "component/bar.css";
 @import "component/navigation-bar.css";
 @import "component/reset.css";
-
+@import "component/screen-size.css";
 @import "component/variable.css";
 
 body {

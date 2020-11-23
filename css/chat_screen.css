@@ -5,7 +5,7 @@
 @import "component/navigation-bar.css";
 @import "component/reset.css";
 @import "component/top-menu-second.css";
-
+@import "component/screen-size.css";
 @import "component/variable.css";
 
 body {
@@ -15,9 +15,11 @@ body {
   padding: 0px;
   background-color: #f6d6d5;
 }
+
 .top-menu-setting {
   background-color: #f6d6d5;
   top: 20px;
+  z-index: 51;
 }
 
 .top-menu-setting_chat_screen div:nth-child(2) {

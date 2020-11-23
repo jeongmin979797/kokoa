@@ -27,15 +27,19 @@
   animation: navigation-bar_animation 1s ease-in-out forwards;
 }
 
+.red-circle_div {
+  position: relative;
+}
+
 .navigation-bar-span {
   padding: 4px 8px;
   background-color: tomato;
   color: white;
   font-size: 13px;
   border-radius: 50%;
-  position: fixed;
-  left: 210px;
-  bottom: 45px;
+  position: absolute;
+  right: -10px;
+  bottom: 20px;
 }
 
 .navigation-bar-span-second {
@@ -43,6 +47,6 @@
   background-color: tomato;
   border-radius: 50%;
   position: fixed;
-  right: 43px;
-  bottom: 52px;
+  right: 40px;
+  bottom: 55px;
 }
